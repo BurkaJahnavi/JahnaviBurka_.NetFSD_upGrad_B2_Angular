@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form >
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <label for="txtName">Name:</label>
+            <input type="text" id="txtName" name="txtName" placeholder="Enter Full Name" value="" required>
+             <br><br>
+
+        <label for="eml">Email:</label>
+        <input type="email" id="eml" name="eml" value="" placeholder="abc@gmail.com" required>
+         <br><br>
+
+        <label for="tel">Mobile Number: </label>
+        <input type="tel" id="tel" name="tel" value="" pattern="[6-9]{1}[0-9]{9}" placeholder="10 digit number" maxlength="10" required>
+         <br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" value="" min="1" max="100" required>
+         <br><br>
+
+         <label for="dt">Date Of Birth: </label>
+        <input type="date" id="dt" name="dt" value="" required >
+         <br><br>
+         
+         <label>
+            <input type="submit" value="Submit">
+         </label>
+    </form>
+</body>
+</html>
