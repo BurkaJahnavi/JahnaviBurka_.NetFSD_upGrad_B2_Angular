@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h2 >Form Validation</h2>
+    <form>
+        <label>Name: </label>
+        <input type="text" id="name" onchange="validateName()">
+        <p id="nameMsg" style="color:red"></p>
+        <br>
+        <label>Email: </label>
+        <input type="email" id="email" onchange="validateEmail()">
+        <p id="mailMsg" style="color:red"></p>
+        <br>
+        <label>Age: </label>
+        <input type="number" id="age" onchange="validateAge()">
+        <p id="ageMsg" style="color:red"></p>
+        <br>
+        <button type="button" onclick="submitForm()">Register</button>
+    </form>
+    <script src="formValidation.js"></script>
+</body>
+</html>

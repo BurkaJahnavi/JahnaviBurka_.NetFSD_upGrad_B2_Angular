@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Logger</title>
+</head>
+<body>
+    <h2>Location-Based Weather Logger</h2>
+    <button onclick="getLocation()">Get My Location</button>
+    
+    <div id="current">
+        <p>Latitude: <span id="lat">--</span></p>
+        <p>Longitude: <span id="lon">--</span></p>
+    </div>
+
+    <h3>Last 5 Locations</h3>
+    <ul id="history"></ul>
+    <script src="weatherLogger.js"></script>
+</body>
+</html>
