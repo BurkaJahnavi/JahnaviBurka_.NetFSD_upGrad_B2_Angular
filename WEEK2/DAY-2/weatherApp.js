@@ -12,8 +12,8 @@ const getWeatherWithPromises = () => {
       const weather = data.current_weather;
 
       console.log(`
-🌤 Weather Report (Promises Version)
-------------------------------------
+ Weather Report (Promises Version)
+
 Temperature: ${weather.temperature}°C
 Wind Speed: ${weather.windspeed} km/h
 Wind Direction: ${weather.winddirection}°
