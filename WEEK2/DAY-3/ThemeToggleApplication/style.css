@@ -1,0 +1,17 @@
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
