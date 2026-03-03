@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ Toggle Section</title>
+
+    <style>
+        .faq-container {
+            width: 500px;
+            margin: 40px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .question {
+            background-color: #f2f2f2;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .answer {
+            display: none;
+            padding: 10px;
+            background-color: #fafafa;
+        }
+
+        .active {
+            background-color: #dcdcdc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="faq-container">
+
+    <div class="faq">
+        <div class="question">1. What is jQuery?</div>
+        <div class="answer">jQuery is a JavaScript library that simplifies DOM manipulation and event handling.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">2. Why use jQuery?</div>
+        <div class="answer">It makes coding easier, shorter, and cross-browser compatible.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">3. What is slideToggle()?</div>
+        <div class="answer">slideToggle() smoothly shows or hides elements with sliding animation.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">4. What is DOM manipulation?</div>
+        <div class="answer">It means modifying HTML elements dynamically using JavaScript or jQuery.</div>
+    </div>
+
+    <div class="faq">
+        <div class="question">5. What is event handling?</div>
+        <div class="answer">It allows actions to be performed when users click or interact with elements.</div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

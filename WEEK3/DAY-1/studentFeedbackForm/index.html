@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Feedback Form</h2>
+
+<form id="feedbackForm">
+    <input type="text" id="name" placeholder="Enter your Name">
+    <input type="email" id="email" placeholder="Enter your Email">
+
+    <select id="rating">
+        <option value="">Select Course Rating</option>
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+    </select>
+
+    <textarea id="comments" placeholder="Enter your Comments"></textarea>
+
+    <button type="button" id="submitBtn">Submit</button>
+
+    <p class="error" id="errorMsg"></p>
+</form>
+
+<div id="message"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
