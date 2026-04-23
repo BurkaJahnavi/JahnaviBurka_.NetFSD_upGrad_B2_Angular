@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ApiGateway/ApiGateway.csproj" Id="68dae562-9807-44be-80db-dde34bda3859" />
+  <Project Path="AuthService/AuthService.csproj" />
+  <Project Path="CategoryService/CategoryService.csproj" />
+  <Project Path="CentralizedAuthMicroservices/CentralizedAuthMicroservices.csproj" />
+  <Project Path="ContactService/ContactService.csproj" />
+</Solution>
